@@ -14,9 +14,12 @@ while True:
 
     if opcion == "1":
         patente = input("Ingrese la patente del auto: ")
-        precio = int(input("Ingrese el precio del auto: "))
-        autos[patente] = precio
-        print(f"Auto {patente} agregado con precio {precio}.")
+        try:
+            precio = int(input("Ingrese el precio del auto: "))
+            autos[patente] = precio
+            print(f"Auto {patente} agregado con precio {precio}.")
+        except Exception:
+            print("Precio no válido.")
 
     elif opcion == "2":
         dni = input("Ingrese el DNI del vendedor: ")
