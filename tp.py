@@ -1,3 +1,12 @@
+
+#Una empresa que forma parte de la industria automotriz solicita un sistema que permita a los empleados de la misma llevar cuenta de los vehículos que vendieron. 
+#Cada vehículo tendrá asignado una patente y un precio. los datos de los vendedores serán almacenados teniendo en cuenta que cada vendedor tendrá un nombre y un DNI. 
+#Las ventas de cada vendedor serán guardadas en un archivo (o diccionario si no se usan archivos) 
+#junto con su nombre mientras que también el programa será capaz de presentar distintas métricas como:
+#cantidad de ventas totales y porcentaje de las ventas realizadas por cada vendedor.
+
+
+
 autos = {}
 vendedores = {}
 
